@@ -28,19 +28,19 @@ You can find them in the right sidebar of the 3D View
 ## Usage
 
 1. Get yourself a hair card curve
-![](res/img2.png)
+<br>![](res/img2.png)
 
 2. Open the HairCompiler panel
-![](res/img3.png)
+<br>![](res/img3.png)
 
 3. Set the values of the `Curve Steps` for the number of generated bones per curve, if you want to skip parts of the bone to make it a root static you can increase the `Rig Start Offset` value to bigger than one.
-![](res/img4_alt.png)
+<br><br>![](res/img4_alt.png)
 
 4. Press generate
-![](res/img5.png)
+<br><br>![](res/img5.png)
 
 5. Done
-![](res/img6.png)
+<br>![](res/img6.png)
 
 You can select multiple hair curve objects and press generate to build and combine them into one mesh and one armature, make sure each individual curve object Hair Compiler's property value has been set. (And make sure to apply all transforms on those three curve objects!)
 ![](res/img7.png)

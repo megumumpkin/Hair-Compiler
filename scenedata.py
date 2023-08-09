@@ -3,7 +3,7 @@ from bpy.app.handlers import persistent
 
 class HairCompilerData(bpy.types.PropertyGroup):
     curve_steps : bpy.props.IntProperty(name="Curve Steps", default=0, min=0)
-    start_offset : bpy.props.IntProperty(name="Rig start offset", default=0, min=0)
+    start_offset : bpy.props.IntProperty(name="Rig Start Offset", default=0, min=0)
 
 classes = [
     HairCompilerData

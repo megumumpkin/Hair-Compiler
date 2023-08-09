@@ -8,10 +8,9 @@ from . import ui
 bl_info = {
     "name" : "Hair Compiler",
     "author" : "megumumpkin",
-    "blender" : (3,6,1),
-    "version" : (0,0,1),
+    "blender" : (3,6,0),
+    "version" : (2023,1),
     "location" : "View3D",
-    "warning" : "Plugin is still in development",
     "category" : "Rigging"
 }
 
